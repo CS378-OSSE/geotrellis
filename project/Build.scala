@@ -41,7 +41,7 @@ object GeotrellisBuild extends Build {
     shellPrompt := { s => Project.extract(s).currentProject.id + " > " },
     version := Version.geotrellis,
     scalaVersion := Version.scala,
-    crossScalaVersions := Seq("2.11.5", "2.10.4"),
+    crossScalaVersions := Seq("2.10.4", "2.11.5"),
     organization := "com.azavea.geotrellis",
 
     // disable annoying warnings about 2.10.x
