@@ -1,5 +1,4 @@
 # GeoTrellis
-
 *GeoTrellis* is a Scala library and framework for creating processes to work with raster data.
 
 #### IO:
