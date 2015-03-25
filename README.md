@@ -2,7 +2,7 @@
 
 *GeoTrellis* is a Scala library and framework for creating processes to work with raster data.
 
-#### IO:
+#### I/O:
 GeoTrellis reads, writes, and operates on raster data as fast as possible. It also has functionality to warp (change the resolution and bounding box of) rasters on loading and throughout the operation sequence.
 
 #### Operations:
@@ -11,7 +11,7 @@ GeoTrellis implements many [Map Algebra](http://en.wikipedia.org/wiki/Map_algebr
 ##### Web Service Framework:
 GeoTrellis provides tools to render rasters into PNGs for web mapping applications, or to convert information about the rasters into JSON format. One of the main goals of GeoTrellis is to provide raster processing at web speeds (sub-10 ms) for RESTful endpoints that can be consumed by web applications. Another goal is to provide fast batch processing of very large raster data.
 
-Please visit our **[documentation page](http://geotrellis.github.com)** for more information.
+Please visit our [documentation page](http://geotrellis.github.com) for more information.
 
 You can also find more information at:
 
