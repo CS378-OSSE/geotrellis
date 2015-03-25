@@ -41,9 +41,9 @@ object Projected {
  * </code>
  */
 case class Projected[+G <: Geometry](geom: G, srid: Int) {
-  def reproject(src: CRS, dest: CRS)(destSRID: Int): Projected[G] =    
+  def reproject(src: CRS, dest: CRS)(destSRID: Int): Projected[G] =
     Projected(Reproject(geom, src, dest).asInstanceOf[G], destSRID)
 
-  def withSRID(newSRID: Int): Projected[G] = 
+  def withSRID(newSRID: Int): Projected[G] =
     Projected(geom, newSRID)
 }
